@@ -1,10 +1,7 @@
-import uuid
 from fastapi import FastAPI, Body, status
 from fastapi.responses import JSONResponse
 import uvicorn
 from random import randint, shuffle
-import json
-from fastapi.staticfiles import StaticFiles
 
 
 class Player:
