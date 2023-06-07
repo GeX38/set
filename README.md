@@ -7,6 +7,7 @@
 /api/users/create
 
 Request
+
 {"action": "register", "nickname": "papich", "password": "lalala"}
 
 Response
@@ -22,16 +23,22 @@ Response
 Request
 
 {"action": "login", "token": 1550478}
+
 Response
 
 {"status": "ok", "message": "OK, you are logged"}
 
 
 Раздача карт:
+
 /api/users/fetch
+
 Request
+
 {"action": "fetch", "token": 1550478}
+
 Response
+
 {
   "status": "ok",
   "cards": [
