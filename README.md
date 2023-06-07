@@ -130,8 +130,11 @@ Response
 }
 
 Выбор карт:
+
 /api/users/choose
+
 Request
+
 {"action": "choose", "token": 4879267, "cards": [{
       "id": 14,
       "color": 1,
@@ -153,7 +156,9 @@ Request
       "shape": 2,
       "count": 1
     }]}
+    
 Response
+
 {
   "status": "error",
   "cards left": 81,
