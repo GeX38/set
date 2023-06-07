@@ -1,10 +1,14 @@
 # set
+
 Сервер работает по адресy: 158.160.106.219(хост на yandex.cloud, написан на FastAPI)
 
 Регистрация:
+
 /api/users/create
+
 Request
 {"action": "register", "nickname": "papich", "password": "lalala"}
+
 Response
 {
   "status": "ok",
@@ -12,10 +16,14 @@ Response
 }
 
 Логин:
+
 /api/users/login
+
 Request
+
 {"action": "login", "token": 1550478}
 Response
+
 {"status": "ok", "message": "OK, you are logged"}
 
 
